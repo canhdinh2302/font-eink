@@ -1,0 +1,28 @@
+{
+  "name": "e-ink",
+  "version": "1.0.0",
+  "description": "An extension make reading better!",
+  "main": "index.js",
+  "author": "DinhNC <canhdinh2032@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./build && webpack",
+    "dev": "node ./dev.js"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29",
+    "@types/react": "^18.2.71",
+    "@types/react-dom": "^18.2.22",
+    "chokidar": "^3.6.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.8"
+  }
+}
