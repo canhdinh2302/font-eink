@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "E-ink Reader",
+  "version": "1.0.0",
+  "description": "Đọc tốt hơn với E-ink",
+  "options_ui": {
+    "page": "index.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "assets/jquery.min.js",
+        "assets/e-ink-home-btn.js",
+        "assets/e-ink-common.js",
+        "assets/e-vn-express-home.js",
+        "assets/e-vn-express-post.js"
+      ],
+      "css": ["assets/e-vn-express.css"]
+    }
+  ]
+}

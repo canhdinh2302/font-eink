@@ -1,0 +1,63 @@
+.e-ink---body {
+  padding: 8pt;
+  /* overflow-y: hidden; */
+}
+
+.e-ink---title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem auto;
+  line-height: 1.6;
+}
+
+.e-ink---title-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.e-ink---title-img-container {
+  text-align: center;
+}
+
+.e-ink---title-img-description {
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 1rem auto;
+}
+
+.e-ink---text {
+  font-size: 1rem;
+  margin: 1rem auto;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.e-ink---sub-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.5rem auto;
+  line-height: 1.6;
+}
+
+.e-ink---related-post-container p {
+  font-size: 1rem;
+  margin: 1rem auto;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.e--home-btn {
+  position: sticky;
+  width: max-content;
+  margin-left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.25;
+  height: 0;
+}
+
+.e--home-btn svg {
+  height: 4rem;
+  width: 4rem;
+}
